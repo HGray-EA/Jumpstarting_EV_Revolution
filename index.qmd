@@ -1,0 +1,23 @@
+---
+title: "index"
+format:
+  html:
+    theme: flatly
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    number-sections: true
+    code-fold: false
+    code-tools: false
+    fig-cap: true
+---
+
+
+```{r quarto setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE)
+#| warning: false
+#| echo: false
+```
+
+
+This is our home page!
